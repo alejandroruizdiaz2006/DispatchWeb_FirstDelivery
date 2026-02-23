@@ -1,0 +1,29 @@
+.rss-page {
+  padding: 4rem 2rem;
+  text-align: center;
+  min-height: 60vh;
+}
+
+.rss-page h1 {
+  color: #38bdf8;
+  margin-bottom: 1rem;
+}
+
+.rss-container {
+  margin-top: 3rem;
+}
+
+.rss-button {
+  background-color: #f97316;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.rss-button:hover {
+  background-color: #c2410c;
+}

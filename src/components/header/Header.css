@@ -1,0 +1,50 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0f172a;
+}
+
+.logo-img {
+  height: 50px; 
+  width: auto;  
+  display: block;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-nav a.active {
+  color: #38bdf8;
+  border-bottom: 2px solid #38bdf8;
+}
+
+.language-switch button {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.language-switch button:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+@media (max-width: 768px) {
+  .header-nav {
+    flex-direction: column;
+  }
+}

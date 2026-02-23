@@ -1,0 +1,43 @@
+.incident-card {
+  background-color: #1e293b;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 5px solid #64748b;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.incident-card h3 {
+  color: white;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.incident-status {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.status-completada {
+  background-color: #10b981;
+  color: #022c22;
+  border-left-color: #10b981;
+}
+
+.status-activa {
+  background-color: #ef4444;
+  color: #450a0a;
+  border-left-color: #ef4444;
+}
+
+.incident-card p {
+  color: #000000;
+  font-size: 0.95rem;
+  margin: 0;
+}
